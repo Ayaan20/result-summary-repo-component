@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+    font-family: "Hanker Grotesk", sans-serif;
+    display:flex;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    color:white;
+    /* background-color: grey; */
+}
+
+main{
+    /* border: 2px solid black; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.first{
+    /* border:2px solid green; */
+    width:224px;
+    height: 324px;
+    border-radius: 0.625rem;
+    display:flex;
+    justify-content: space-between;
+    padding: 1.255rem;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(252, 100%, 67%);
+    /* box-shadow: 10px 5px 5px grey; */
+    color: rgb(207, 204, 204);
+}
+.second{
+    /* border:2px solid brown; */
+    width:224px;
+    height: 324px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color:black;
+    background-color: white;
+    border-radius: 0.625rem;
+    padding:1.255rem;
+    box-shadow: 10px 5px 5px grey;
+}
+p{
+    text-align: center;
+}
+.circle{
+    /* border: 2px solid green; */
+    border-radius: 4rem;
+    width: 122px;
+    height:122px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(241, 81%, 54%)
+    ;
+}
+.item{
+  display:flex;
+  flex-direction: row;
+  /* border: 2px solid red; */
+  /* justify-content: flex-end; */
+  height: 2rem;
+  border-radius: 0.625rem;
+  color: rgb(56, 53, 53);
+
+}
+.score{
+ /* border: 2px solid black; */
+ margin-left: auto;
+ text-align: center;
+ align-self: center;
+ margin-right:1rem;
+}
+.value{
+  text-align: center;
+  align-self: center;
+}
+img {
+  margin-right:1rem;
+}
+h1{
+  font-size: 3rem;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+button{
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 2rem;
+  background-color: hsl(224, 30%, 27%);
+  background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
